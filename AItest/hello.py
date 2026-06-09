@@ -4,3 +4,4 @@ reset = '\033[0m'
 message = "Hello, World!"
 colored = ''.join(colors[i % len(colors)] + ch + reset for i, ch in enumerate(message))
 print(colored)
+print(colored)
